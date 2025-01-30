@@ -39,7 +39,6 @@ client
             if(!session) throw new Error('Failed to create a session');
             return true;
         }catch(error){
-            return false;
         }
      }
 
@@ -48,8 +47,7 @@ client
             await account.deleteSession('current');
             return true;
         } catch (error) {
-            console.error(error);
-            return false;
+            
         }
      }
 
@@ -64,7 +62,6 @@ client
                 }
             }
         } catch (error) {
-            console.error(error);
             return null;
         }
      }
