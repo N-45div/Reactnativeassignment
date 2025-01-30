@@ -22,12 +22,12 @@ const SignIn = () => {
         <SafeAreaView className="bg-white h-full">
             <ScrollView contentContainerClassName="h-full">
             <View style={tw`px-10`}>
-                <Text style={tw`text-3xl font-rubik text-black-300 text-center mt-2`}>Welcome !</Text>
-                <Text style={tw`text-3xl font-rubik text-black-300 text-center mt-2`}>Lets get started !</Text>
-                <Text style={tw`text-lg font-rubik text-black-200 text-center mt-12`}>Login to your account</Text>
+                <Text style={tw`text-3xl text-black-300 text-center mt-2`}>Welcome !</Text>
+                <Text style={tw`text-3xl text-black-300 text-center mt-2`}>Lets get started !</Text>
+                <Text style={tw`text-lg text-black-200 text-center mt-12`}>Login to your account</Text>
                 <TouchableOpacity onPress={handlelogin} style={tw`bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5`}>
                     <View style={tw`flex felx-row items-center justify-center`}>
-                        <Text style={tw`text-lg font-rubik-medium text-black-300 ml-2`}>Coninue with Google</Text>
+                        <Text style={tw`text-lg  text-black-300 ml-2`}>Coninue with Google</Text>
                     </View>
                 </TouchableOpacity>
             </View>
