@@ -8,7 +8,6 @@ interface houseprop{
     home : houses;
 }
 
-
 const House = ({home} : houseprop) => {
     const [location, setLocation] = useState<Location.LocationObject | null>(null);
     const [errorMsg, setErrorMsg] = useState<string | null>(null);
