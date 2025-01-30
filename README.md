@@ -1,4 +1,3 @@
-
 # React-Native Assignment
 
 Implemented the given app task with all the deliverables and bonus feature to make the app user friendly.
@@ -44,6 +43,10 @@ To run this project to make auth function working, you will need to add the foll
 Implemented profile feature in the app using appwrite where the user can login using their Gmail account without any security issues.
 
 ## Screen Recording of the App
+
+
+https://github.com/user-attachments/assets/f89d6abf-9ad6-4fda-a3a9-7ba366fabcb7
+
 
 
 
